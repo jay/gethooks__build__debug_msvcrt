@@ -1,0 +1,79 @@
+﻿Build started 12/5/2011 12:56:18 AM.
+     1>Project "X:\j\hooks\gethooks\vs\GetHooks.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug MSVCRT\GetHooks.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug MSVCRT\GetHooks.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\traverse_threads /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D WINVER=0x0500 /D _WIN32_WINNT=0x0500 /D WIN32 /D _DEBUG /D _CONSOLE /Gm /MD /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug MSVCRT\\" /Fd"Debug MSVCRT\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\config.c ..\debug.c ..\desktop.c ..\desktop_hook.c ..\diff.c ..\global.c ..\list.c ..\main.c ..\prog.c ..\reactos.c ..\snapshot.c ..\str_to_int.c ..\test.c ..\traverse_threads\traverse_threads.c ..\traverse_threads\traverse_threads__support.c ..\usage.c ..\util.c
+         util.c
+         usage.c
+         traverse_threads__support.c
+         traverse_threads.c
+         test.c
+         str_to_int.c
+         snapshot.c
+         reactos.c
+         prog.c
+         main.c
+         list.c
+         global.c
+         diff.c
+         desktop_hook.c
+         desktop.c
+         debug.c
+         config.c
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug MSVCRT\GetHooks.exe.embed.manifest.res" "Debug MSVCRT\GetHooks_manifest.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug MSVCRT\GetHooks.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.pdb" /SUBSYSTEM:CONSOLE,"5.0" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.lib" /MACHINE:X86 "Debug MSVCRT\GetHooks.exe.embed.manifest.res"
+         "Debug MSVCRT\config.obj"
+         "Debug MSVCRT\debug.obj"
+         "Debug MSVCRT\desktop.obj"
+         "Debug MSVCRT\desktop_hook.obj"
+         "Debug MSVCRT\diff.obj"
+         "Debug MSVCRT\global.obj"
+         "Debug MSVCRT\list.obj"
+         "Debug MSVCRT\main.obj"
+         "Debug MSVCRT\prog.obj"
+         "Debug MSVCRT\reactos.obj"
+         "Debug MSVCRT\snapshot.obj"
+         "Debug MSVCRT\str_to_int.obj"
+         "Debug MSVCRT\test.obj"
+         "Debug MSVCRT\traverse_threads.obj"
+         "Debug MSVCRT\traverse_threads__support.obj"
+         "Debug MSVCRT\usage.obj"
+         "Debug MSVCRT\util.obj"
+       Manifest:
+         Deleting file "Debug MSVCRT\GetHooks.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug MSVCRT\GetHooks.exe.embed.manifest" /manifest "Debug MSVCRT\GetHooks.exe.intermediate.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug MSVCRT\GetHooks.exe.embed.manifest.res" "Debug MSVCRT\GetHooks_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug MSVCRT\GetHooks.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.pdb" /SUBSYSTEM:CONSOLE,"5.0" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.lib" /MACHINE:X86 "Debug MSVCRT\GetHooks.exe.embed.manifest.res"
+         "Debug MSVCRT\config.obj"
+         "Debug MSVCRT\debug.obj"
+         "Debug MSVCRT\desktop.obj"
+         "Debug MSVCRT\desktop_hook.obj"
+         "Debug MSVCRT\diff.obj"
+         "Debug MSVCRT\global.obj"
+         "Debug MSVCRT\list.obj"
+         "Debug MSVCRT\main.obj"
+         "Debug MSVCRT\prog.obj"
+         "Debug MSVCRT\reactos.obj"
+         "Debug MSVCRT\snapshot.obj"
+         "Debug MSVCRT\str_to_int.obj"
+         "Debug MSVCRT\test.obj"
+         "Debug MSVCRT\traverse_threads.obj"
+         "Debug MSVCRT\traverse_threads__support.obj"
+         "Debug MSVCRT\usage.obj"
+         "Debug MSVCRT\util.obj"
+         GetHooks.vcxproj -> X:\j\hooks\gethooks\vs\Debug MSVCRT\GetHooks.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug MSVCRT\GetHooks.unsuccessfulbuild".
+         Touching "Debug MSVCRT\GetHooks.lastbuildstate".
+     1>Done Building Project "X:\j\hooks\gethooks\vs\GetHooks.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.33
